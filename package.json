@@ -1,7 +1,7 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "WHEN I am prompted for information about my application repository\r THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.3.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BahamJustin/ReadMe-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BahamJustin/ReadMe-Generator/issues"
+  },
+  "homepage": "https://github.com/BahamJustin/ReadMe-Generator#readme"
 }
