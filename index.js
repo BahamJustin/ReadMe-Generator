@@ -2,6 +2,7 @@
 const inquirer = require("inquirer");
 const generateMarkdown = require("./src/readme-template");
 const writeFile = require("./utils/writeFile");
+const writeSample = require("./test/sample");
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -120,10 +121,12 @@ function init() {
 }
 
 // Function call to initialize app
-init()
-  .then((answerData) => {
-    return generateMarkdown(answerData);
-  })
-  .then((markdown) => {
-    writeFile(markdown);
-  });
+// init()
+//   .then((answerData) => {
+//     return generateMarkdown(answerData);
+//   })
+//   .then((markdown) => {
+//     writeFile(markdown);
+//   });
+
+writeSample();

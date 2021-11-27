@@ -3,6 +3,7 @@ const writeFile = require("../utils/writeFile");
 
 const sampleAnswer = require("./sample-answers");
 
-writeFile(generateMarkdown(sampleAnswer));
+const writeSample = () => writeFile(generateMarkdown(sampleAnswer));
 
 // Look in Module for tests with sample answers
+module.exports = writeSample;

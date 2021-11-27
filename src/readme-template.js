@@ -1,41 +1,49 @@
 module.exports = (data) => {
-  return ` 
+  return `
   # ${data.title}
+    
+  Badge 
   
-    ### License
-    ${data.license}
-    
-    ## Description
-    ${data.descript}
-    
-    ## Table of Contents
-    
-    [Install](Install)
-    
-    [Usage](Usage)
-    
-    [Contributing](Contributing)
-    
-    [Tests](Tests)
-    
-    [Questions](Questions)
-    
-    ## Installation
-    ${data.install}
-    
-    ## Usage
-    ${data.usage}
-    
-    ## Contributing
-    ${data.contribute}
-    
-    ## Tests
-    ${data.test}
-    
-    ### Questions
-    
-    [${data.username}](GitHub)
-    
-    [${data.email}](Email)
+  ## Description
+  
+  ${data.descript}
+  
+  ## Table of Contents
+  
+  [Install](#install)
+
+  [Usage](#usage)
+
+  [Contributing](#contributing)
+
+  [Tests](#tests)
+
+  [Contact](#contact)
+  
+  ## Installation 
+  
+  ${data.install} 
+  
+  ## Usage 
+  
+  ${data.usage}
+  
+  ## Contributing 
+  
+  ${data.contribute}
+  
+  ## Tests 
+  
+  ${data.test}
+  
+  ### Contact
+  
+  [GitHub](https://github.com/${data.username})  
+  
+  [Email](mailto:${data.email})
+
+  ### License
+
+  Licensed under the [${data.license}]() license.
     `;
 };

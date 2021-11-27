@@ -5,7 +5,7 @@ module.exports = {
   usage: "Usage",
   contribute: "Contribution Guidelines",
   test: "Test Instructions",
-  license: "License",
-  username: "GitHub Username",
-  email: "Email Address",
+  license: "MIT",
+  username: "BahamJustin",
+  email: "bahamjustin@outlook.com",
 };
