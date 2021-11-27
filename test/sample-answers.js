@@ -5,7 +5,7 @@ module.exports = {
   usage: "Usage",
   contribute: "Contribution Guidelines",
   test: "Test Instructions",
-  license: "MIT",
+  license: "None",
   username: "BahamJustin",
   email: "bahamjustin@outlook.com",
 };
