@@ -1,10 +1,10 @@
 
-  # dwad
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  # ReadMe Generator
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Description
   
-  ad
+  This is my description
   
   ## Table of Contents
   
@@ -20,27 +20,27 @@
   
   ## Installation 
   
-  ds 
+  This are the install instructions 
   
   ## Usage 
   
-  dadsa
+  this is the usage info
   
   ## Contributing 
   
-  dads
+  these ar ethe contribution guidelines
   
   ## Tests 
   
-  dasd
+  these are the test instruction
   
   ### Contact
   
-  [GitHub](https://github.com/asd)  
+  [GitHub](https://github.com/BahamJustin)  
   
-  [Email](mailto:adds)
+  [Email](mailto:bahamjustin@outlook.com)
 
   ### License
 
-  Licensed under the [GNU](https://www.gnu.org/licenses/gpl-3.0) license.
+  Licensed under the [MIT](https://opensource.org/licenses/MIT) license.
     
